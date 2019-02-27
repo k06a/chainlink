@@ -12,6 +12,9 @@
     "sourceMap": true,
     "removeComments": false,
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "plugins": [
+      { "name": "typescript-tslint-plugin" }
+    ]
   }
 }
